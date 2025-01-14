@@ -24,7 +24,7 @@ phases:
       - | 
         echo '[
         {
-          "name": "newcontainer",
+          "name": "django",
           "imageUri": "779846824018.dkr.ecr.ap-south-1.amazonaws.com/first-time:latest"
           }
         ]' >imagedefinitions.json
