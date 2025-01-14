@@ -18,7 +18,7 @@ phases:
       - echo "Building the Docker image..."
       - docker build -t first-time .
       
-      - docker tag doc:latest 779846824018.dkr.ecr.ap-south-1.amazonaws.com/first-time:latest
+      - docker tag first-time:latest 779846824018.dkr.ecr.ap-south-1.amazonaws.com/first-time:latest
       - echo "Pushing the Docker image to ECR..."
       - docker push 779846824018.dkr.ecr.ap-south-1.amazonaws.com/first-time:latest
       - | 
